@@ -13,21 +13,21 @@ export default function Footer() {
                         </p>
                     </div>
                     <div>
-                        <h3 className={styles.footerTitle}>Quick Links</h3>
+                        <h3 className={styles.footerTitle}>Technology Partners</h3>
                         <ul className={styles.footerLinks}>
-                            <li><Link href="/products">Products</Link></li>
-                            <li><Link href="/software">Software Solutions</Link></li>
-                            <li><Link href="/services">IT Services</Link></li>
-                            <li><Link href="/contact">Contact Us</Link></li>
+                            <li><a href="https://www.hp.com" target="_blank" rel="noopener noreferrer">HP Global Site</a></li>
+                            <li><a href="https://www.dell.com" target="_blank" rel="noopener noreferrer">Dell Technologies</a></li>
+                            <li><a href="https://www.canon.com" target="_blank" rel="noopener noreferrer">Canon Support</a></li>
+                            <li><a href="https://www.lenovo.com" target="_blank" rel="noopener noreferrer">Lenovo Official</a></li>
                         </ul>
                     </div>
                     <div>
-                        <h3 className={styles.footerTitle}>Contact</h3>
+                        <h3 className={styles.footerTitle}>Contact Us</h3>
                         <ul className={styles.footerLinks}>
                             <li>S M Krishna Nagara, Vijayanagara, Apache Nagar,</li>
                             <li>Davanagere, Karnataka 577006</li>
-                            <li>+91 87924 10480</li>
-                            <li>markcomputerpinterssolution@gmail.com</li>
+                            <li>Phone: +91 87924 10480</li>
+                            <li>Email: markcomputerpinterssolution@gmail.com</li>
                         </ul>
                     </div>
                 </div>

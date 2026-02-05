@@ -51,6 +51,11 @@ export const metadata = {
         index: true,
         follow: true,
     },
+    icons: {
+        icon: "/favicon.ico",
+        shortcut: "/favicon.ico",
+        apple: "/logo.png", // Using logo.png as the apple touch icon
+    },
 };
 
 export default function RootLayout({ children }) {
