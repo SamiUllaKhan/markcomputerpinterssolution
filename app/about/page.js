@@ -1,8 +1,8 @@
 import styles from '@/styles/About.module.css';
 
 export const metadata = {
-    title: "About Us - Mark Computer and Printer Solutions",
-    description: "Learn more about our mission, vision, and the team driving technology excellence in Davanagere.",
+    title: "About Us | Leading IT Service Provider in Davanagere",
+    description: "Learn more about Mark Computer and Printer Solutions, providing authorized computer sales and printer services in Davanagere since 2015.",
 };
 
 export default function AboutPage() {

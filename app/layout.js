@@ -7,11 +7,21 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata = {
     title: {
-        default: "Mark Computer and Printer Solutions | Davanagere",
+        default: "Mark Computer and Printer Solutions | Service & Sales in Davanagere",
         template: "%s | Mark Computer and Printer Solutions"
     },
-    description: "Premier IT infrastructure and software provider in Davanagere. Specializing in Computer Sales, Printer Repair, ERP Software, and Business IT Services.",
-    keywords: ["Computer Sales", "Printer Repair", "ERP Software Davanagere", "IT Services Davanagere", "Mark Computer and Printer Solutions", "Tally Partner", "Laptop Service"],
+    description: "Expert Computer and Printer Service & Sales in Davanagere, Karnataka. Authorized dealer for HP, Dell, Lenovo. Professional IT solutions and software services.",
+    keywords: [
+        "Computer Service Davanagere",
+        "Printer Service Davanagere",
+        "Computer Sales Davanagere",
+        "Printer Sales Karnataka",
+        "Laptop Repair Davanagere",
+        "IT Solutions Davanagere",
+        "Mark Computer and Printer Solutions",
+        "Tally Service Davanagere",
+        "ERP Software Karnataka"
+    ],
     authors: [{ name: "Mark Computer and Printer Solutions" }],
     creator: "Mark Computer and Printer Solutions",
     publisher: "Mark Computer and Printer Solutions",
@@ -20,21 +30,21 @@ export const metadata = {
         locale: "en_IN",
         url: "https://markcomputerprinter.com",
         siteName: "Mark Computer and Printer Solutions",
-        title: "Mark Computer and Printer Solutions | Hardware, Software & IT Services",
-        description: "Your trusted partner for Computer Sales, ERP Software, and Business IT Services in Davanagere.",
+        title: "Mark Computer and Printer Solutions | Best IT Service & Sales in Davanagere",
+        description: "Your trusted center for Computer Sales, Printer Service, and IT Solutions in Davanagere, Karnataka.",
         images: [
             {
                 url: "/og-image.jpg",
                 width: 1200,
                 height: 630,
-                alt: "Mark Computer and Printer Solutions",
+                alt: "Mark Computer and Printer Solutions Davanagere",
             },
         ],
     },
     twitter: {
         card: "summary_large_image",
-        title: "Mark Computer and Printer Solutions | Hardware, Software & IT Services",
-        description: "Your trusted partner for Computer Sales, ERP Software, and Business IT Services in Davanagere.",
+        title: "Computer & Printer Solutions in Davanagere",
+        description: "Authorized Sales and Expert Service for Computers and Printers in Davanagere, Karnataka.",
         images: ["/og-image.jpg"],
     },
     robots: {

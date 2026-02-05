@@ -2,8 +2,8 @@ import { Suspense } from 'react';
 import ContactForm from '@/components/ContactForm';
 
 export const metadata = {
-    title: "Contact Us - Mark Computer and Printer Solutions",
-    description: "Get in touch for quotes, support, or general inquiries.",
+    title: "Contact Mark Computer and Printer Solutions | Davanagere Office",
+    description: "Visit our office in Davanagere, Karnataka or contact us for expert computer and printer services and sales.",
 };
 
 export default function ContactPage() {
