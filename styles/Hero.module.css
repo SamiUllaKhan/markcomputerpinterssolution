@@ -49,3 +49,27 @@
         align-items: center;
     }
 }
+
+.linkUnderline {
+    display: inline-block;
+    padding: 12px 0;
+    font-weight: 600;
+    color: var(--primary-color);
+    position: relative;
+    margin-left: 10px;
+}
+
+.linkUnderline::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 5px;
+    left: 0;
+    background-color: var(--primary-color);
+    transition: width 0.3s ease;
+}
+
+.linkUnderline:hover::after {
+    width: 100%;
+}

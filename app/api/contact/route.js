@@ -26,7 +26,7 @@ export async function POST(req) {
         // Email options (for actual sending, currently commented out)
         const mailOptions = {
             from: process.env.SMTP_EMAIL, // Sender address (authenticated)
-            to: 'markcomputerpinterssolution@gmail.com',   // Receiver address
+            to: 'sami.khan1504@gmail.com',   // Receiver address
             replyTo: email,               // Reply to the user's email
             subject: `New Inquiry from ${name}: ${subject}`,
             html: `<p>Name: ${name}</p><p>Email: ${email}</p><p>Message: ${message}</p>`,
@@ -34,7 +34,7 @@ export async function POST(req) {
 
         // MOCK EMAIL SENDING FOR DEV/DEMO (Since no credentials provided)
         console.log("Mock Email Sending:");
-        console.log(`To: markcomputerpinterssolution@gmail.com`); // Business email
+        console.log(`To: sami.khan1504@gmail.com`); // Business email
         console.log(`From: ${email} (${name})`);
         console.log(`Subject: New Inquiry: ${subject}`);
         console.log(`Message: ${message}`);
