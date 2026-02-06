@@ -6,6 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata = {
+    metadataBase: new URL("https://markcomputers.in"),
     title: {
         default: "Mark Computer and Printer Solutions | Service & Sales in Davanagere",
         template: "%s | Mark Computer and Printer Solutions"
@@ -25,10 +26,13 @@ export const metadata = {
     authors: [{ name: "Mark Computer and Printer Solutions" }],
     creator: "Mark Computer and Printer Solutions",
     publisher: "Mark Computer and Printer Solutions",
+    alternates: {
+        canonical: "/",
+    },
     openGraph: {
         type: "website",
         locale: "en_IN",
-        url: "https://markcomputerprinter.com",
+        url: "https://markcomputers.in",
         siteName: "Mark Computer and Printer Solutions",
         title: "Mark Computer and Printer Solutions | Best IT Service & Sales in Davanagere",
         description: "Your trusted center for Computer Sales, Printer Service, and IT Solutions in Davanagere, Karnataka.",
@@ -50,17 +54,70 @@ export const metadata = {
     robots: {
         index: true,
         follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
+        },
     },
     icons: {
         icon: "/favicon.ico",
         shortcut: "/favicon.ico",
-        apple: "/logo.png", // Using logo.png as the apple touch icon
+        apple: "/logo.png",
     },
+};
+
+const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Mark Computer and Printer Solutions",
+    "image": "https://markcomputers.in/logo.png",
+    "@id": "https://markcomputers.in",
+    "url": "https://markcomputers.in",
+    "telephone": "+91 87924 10480",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "S M Krishna Nagara, Vijayanagara, Apache Nagar",
+        "addressLocality": "Davanagere",
+        "postalCode": "577006",
+        "addressRegion": "Karnataka",
+        "addressCountry": "IN"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 14.4800705,
+        "longitude": 75.9073702
+    },
+    "openingHoursSpecification": [
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "19:00"
+        },
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "10:00",
+            "closes": "16:00"
+        }
+    ],
+    "sameAs": [
+        "https://markcomputers.in"
+    ]
 };
 
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
+            <head>
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                />
+            </head>
             <body className={inter.variable}>
                 <Navbar />
                 {children}

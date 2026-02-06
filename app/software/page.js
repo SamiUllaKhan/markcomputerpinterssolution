@@ -4,6 +4,9 @@ import styles from '@/styles/Software.module.css';
 export const metadata = {
     title: "Software Solutions - ERP, CRM, Billing | Mark Computer and Printer Solutions",
     description: "Boost efficiency with our ERP, Accounting, and Business Management Software in Davanagere.",
+    alternates: {
+        canonical: "/software",
+    },
 };
 
 export default function SoftwarePage() {

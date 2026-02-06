@@ -5,6 +5,6 @@ export default function robots() {
             allow: '/',
             disallow: '/api/',
         },
-        sitemap: 'https://markcomputerprinter.com/sitemap.xml',
+        sitemap: 'https://markcomputers.in/sitemap.xml',
     };
 }

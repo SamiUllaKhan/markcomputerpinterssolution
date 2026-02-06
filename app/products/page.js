@@ -4,6 +4,9 @@ import styles from '@/styles/Products.module.css';
 export const metadata = {
     title: "Products | Laptops, Printers & Peripherals in Davanagere",
     description: "Browse our range of high-performance Desktops, Laptops, Printers, and Accessories available in Davanagere, Karnataka.",
+    alternates: {
+        canonical: "/products",
+    },
 };
 
 const products = [

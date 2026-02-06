@@ -3,6 +3,9 @@ import styles from '@/styles/Services.module.css';
 export const metadata = {
     title: "Our Services | Computer & Printer Repair in Davanagere",
     description: "Professional IT services, computer sales, printer repair, and business automation software in Davanagere, Karnataka.",
+    alternates: {
+        canonical: "/services",
+    },
 };
 
 export default function ServicesPage() {

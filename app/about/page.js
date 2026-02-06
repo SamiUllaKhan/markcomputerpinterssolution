@@ -3,6 +3,9 @@ import styles from '@/styles/About.module.css';
 export const metadata = {
     title: "About Us | Leading IT Service Provider in Davanagere",
     description: "Learn more about Mark Computer and Printer Solutions, providing authorized computer sales and printer services in Davanagere since 2015.",
+    alternates: {
+        canonical: "/about",
+    },
 };
 
 export default function AboutPage() {

@@ -1,5 +1,5 @@
 export default function sitemap() {
-    const baseUrl = 'https://markcomputerprinter.com';
+    const baseUrl = 'https://markcomputers.in';
 
     const routes = [
         '',

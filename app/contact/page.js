@@ -4,6 +4,9 @@ import ContactForm from '@/components/ContactForm';
 export const metadata = {
     title: "Contact Mark Computer and Printer Solutions | Davanagere Office",
     description: "Visit our office in Davanagere, Karnataka or contact us for expert computer and printer services and sales.",
+    alternates: {
+        canonical: "/contact",
+    },
 };
 
 export default function ContactPage() {

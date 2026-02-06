@@ -5,6 +5,9 @@ import homeStyles from '@/styles/Home.module.css';
 export const metadata = {
     title: "Best Computer & Printer Service in Davanagere | Sales & IT Support",
     description: "Authorized Sales and Expert Repair Service for Laptops, Printers, and Desktops in Davanagere, Karnataka. 10+ years of technical excellence.",
+    alternates: {
+        canonical: "/",
+    },
 };
 
 export default function Home() {
